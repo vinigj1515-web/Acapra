@@ -607,7 +607,7 @@ body {
 .footer {
     background: #0f172a;
     border-top: 1px solid rgba(59, 130, 246, 0.2);
-    padding: 48px 0;
+    padding: 48px;
     margin-top: 64px;
 }
 
@@ -691,7 +691,7 @@ body {
 
 .animal-card img {
   width: 100%;
-  height: 200px;              /* deixa todas as imagens na mesma altura */
+  height: 300px;              /* deixa todas as imagens na mesma altura */
   object-fit: cover;
   border-radius: 8px;
   display: block;
@@ -722,4 +722,20 @@ body {
 .adoption-title,
 .adoption-subtitle { text-align: center; }
 
+.botao-formulario {
+  display: inline-block;
+  background-color: #5a2a82;  /* Roxo ACAPRA */
+  color: white;               /* Cor do texto: branco */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+  transition: background-color 0.3s;
+}
 
+.botao-formulario:hover {
+  background-color: #441e63; /* Roxo mais escuro no hover */
+  color: white;              /* Garante que continue branco no hover */
+}
