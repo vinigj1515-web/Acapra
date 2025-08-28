@@ -11,6 +11,7 @@ body {
     color: white;
     line-height: 1.6;
     min-height: 100vh;
+    
 }
 
 .container {
@@ -183,7 +184,9 @@ body {
 }
 
 .hero-image {
-    position: relative;
+    float: left;
+    margin-right: 15px;
+    width: 150px;
 }
 
 .image-card {
@@ -193,7 +196,6 @@ body {
     transform: rotate(3deg);
     transition: transform 0.3s ease;
 }
-
 .image-card:hover {
     transform: rotate(0deg);
 }
@@ -722,5 +724,4 @@ body {
 .notice-title,
 .adoption-title,
 .adoption-subtitle { text-align: center; }
-
 
